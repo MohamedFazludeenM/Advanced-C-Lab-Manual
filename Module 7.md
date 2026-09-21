@@ -15,7 +15,7 @@ Else
 6.	Return 0
  
 Program:
-"""
+'''
 #include <stdio.h>
 struct eligible {
     int age;
@@ -34,7 +34,7 @@ int main() {
         printf("eligibility:yes\n");
     }
     return 0;
-}"""
+}'''
 Output:
 '''
 <img width="702" height="165" alt="image" src="https://github.com/user-attachments/assets/0abd6a81-af98-4d90-8d18-bdda434c2c31" />
