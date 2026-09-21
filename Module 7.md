@@ -15,6 +15,7 @@ Else
 6.	Return 0
  
 Program:
+'''
 #include <stdio.h>
 struct eligible {
     int age;
@@ -33,9 +34,11 @@ int main() {
         printf("eligibility:yes\n");
     }
     return 0;
-}
+}'''
 Output:
+'''
 <img width="702" height="165" alt="image" src="https://github.com/user-attachments/assets/0abd6a81-af98-4d90-8d18-bdda434c2c31" />
+'''
 
 
 Result:
@@ -57,6 +60,7 @@ Algorithm:
 7.	Return 0
  
 Program:
+'''
 #include<stdio.h>
 struct numbers{
     int a;
@@ -69,11 +73,13 @@ int main(){
     scanf("%d %d ",&n.a,&n.b);
     printf("%d",add(n));
 }
-
+'''
 
 
 Output:
+'''
 <img width="325" height="362" alt="image" src="https://github.com/user-attachments/assets/a12b77ed-3674-4879-a569-ca3067c6a771" />
+'''
 
 
 
@@ -105,6 +111,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 Program:
+'''
 #include <stdio.h>
 int main(){
     FILE *file;
@@ -116,10 +123,13 @@ int main(){
     fclose(file);
     printf("%s File Closed" ,a); 
 }
+'''
 
 
 Output:
+'''
 <img width="1167" height="382" alt="image" src="https://github.com/user-attachments/assets/943f91f5-8e71-430f-8728-17ba4795c7f3" />
+'''
 
 
 
@@ -154,6 +164,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 Program:
+'''
 #include <stdio.h> 
 int main(){
     FILE *p;
@@ -168,10 +179,13 @@ int main(){
     }
     printf("\nData added Successfully");
 }
+'''
 
 
 Output:
+'''
 <img width="787" height="365" alt="image" src="https://github.com/user-attachments/assets/47f1ca87-3ded-4cf5-9697-4765381d930c" />
+'''
 
 
 
@@ -214,6 +228,7 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
+'''
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -235,12 +250,14 @@ int main() {
     free(students);
     return 0;
 }
-
+'''
 
 
 
 Output:
+'''
 <img width="492" height="332" alt="image" src="https://github.com/user-attachments/assets/c959d063-e86b-4be6-b092-a0f47dd94c25" />
+'''
 
 Result:
 Thus, the program is verified successfully
